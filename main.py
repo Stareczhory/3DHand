@@ -64,7 +64,7 @@ for i, row in data.iterrows():
 
         length_a = 4
         length_b = 3
-        length_c = sqrt(length_a**2 + length_b**2 - 2*length_a*length_b*cos(angle))
+        length_c = sqrt(length_a**2 + length_b**2 - 2*length_a*length_b*cos(radians(angle)))
         z_coordinate = sqrt(length_b**2 - ((length_c**2 - length_b**2 + length_a**2)/(2*length_a)-length_a)**2)
         y_coordinate = (length_c**2 - length_b**2 + length_a**2)/(2*length_a)
 
