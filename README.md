@@ -43,7 +43,7 @@ For example, to calculate the coordinates for point A:
 
     1. determine the theta angle
     2. y-coordinate (height) = cos(theta) + the y-coordinate of Origin
-    3. z-coordinate (depth) = cos(theta) + the z-coordinate of Origin
+    3. z-coordinate (depth) = sin(theta) + the z-coordinate of Origin
     4. update the Origin coordinates with coordinates of A.
     5. Update Theta variable (cumulatively)
 
